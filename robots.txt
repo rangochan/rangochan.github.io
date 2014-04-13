@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://rangochan.github.io/sitemap.xml 
+Sitemap: http://rangochan.github.com/sitemap.xml 
