@@ -4,7 +4,7 @@
   <title><![CDATA[游响云停]]></title>
   <link href="http://rangochan.github.com/atom.xml" rel="self"/>
   <link href="http://rangochan.github.com/"/>
-  <updated>2014-04-13T21:38:43+08:00</updated>
+  <updated>2014-04-13T22:00:20+08:00</updated>
   <id>http://rangochan.github.com/</id>
   <author>
     <name><![CDATA[Rangochan]]></name>
@@ -148,15 +148,6 @@ echo &ldquo;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdas
 <p>start at 2014-04-10 10:31:21 &hellip;    #10:31:00启动的定时任务等待了20秒后，上一个任务释放了锁，所以此任务可以马上拿到锁，并继续执行</p>
 
 <p>finish at 2014-04-10 10:33:41 &hellip;</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[New Post]]></title>
-    <link href="http://rangochan.github.com/blog/2014/04/13/new-post/"/>
-    <updated>2014-04-13T18:54:32+08:00</updated>
-    <id>http://rangochan.github.com/blog/2014/04/13/new-post</id>
-    <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
