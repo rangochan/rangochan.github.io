@@ -11,7 +11,7 @@
   
   <meta name="description" content="Blog Archive 2014 Shell中实现文件锁
 Apr 13 2014 posted in shell/python 下辈子，无论爱与不爱，都不会再见
-Apr 13 2014 posted in 游响云停 新浪微博 Recent Posts Shell中实现文件锁 下辈子， &hellip;">
+Apr 13 2014 posted in 游响云停 文章分类 {% category_list %} 新浪微博 Recent &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -58,8 +58,9 @@ Apr 13 2014 posted in 游响云停 新浪微博 Recent Posts Shell中实现文�
 </form>
   
 <ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/">首页</a></li>
+  <li><a href="/blog/archives">所有文章</a></li>
+  <li><a href="/about">关于我</a></li>
 </ul>
 
 </nav>
@@ -116,6 +117,12 @@ Apr 13 2014 posted in 游响云停 新浪微博 Recent Posts Shell中实现文�
 <aside class="sidebar">
   
     <section>
+  <h1>文章分类</h1>
+  <ul id="categories">
+    {% category_list %} 
+  </ul>
+</section>
+<section>
 	<h1>新浪微博</h1>
 	<ul id="weibo">
 		<li>

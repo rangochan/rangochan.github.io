@@ -56,8 +56,9 @@
 </form>
   
 <ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/">首页</a></li>
+  <li><a href="/blog/archives">所有文章</a></li>
+  <li><a href="/about">关于我</a></li>
 </ul>
 
 </nav>
@@ -276,6 +277,12 @@ echo &ldquo;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdas
 <aside class="sidebar">
   
     <section>
+  <h1>文章分类</h1>
+  <ul id="categories">
+    {% category_list %} 
+  </ul>
+</section>
+<section>
 	<h1>新浪微博</h1>
 	<ul id="weibo">
 		<li>
