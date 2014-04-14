@@ -107,5 +107,3 @@ duoshuo_short_name: rangochan
 #disable sidebar for dropbot theme
 #default_asides: []
 #sidebar: collapse
-
-weibo_share: true
