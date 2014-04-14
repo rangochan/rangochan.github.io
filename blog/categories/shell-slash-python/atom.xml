@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: shell/python | 游响云停]]></title>
+  <title><![CDATA[Category: Shell/python | 游响云停]]></title>
   <link href="http://rangochan.github.com/blog/categories/shell-slash-python/atom.xml" rel="self"/>
   <link href="http://rangochan.github.com/"/>
-  <updated>2014-04-14T10:40:05+08:00</updated>
+  <updated>2014-04-14T10:43:31+08:00</updated>
   <id>http://rangochan.github.com/</id>
   <author>
     <name><![CDATA[Rangochan]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[shell中实现文件锁]]></title>
+    <title type="html"><![CDATA[Shell中实现文件锁]]></title>
     <link href="http://rangochan.github.com/blog/2014/04/13/shellzhong-shi-xian-wen-jian-suo/"/>
     <updated>2014-04-13T21:19:21+08:00</updated>
     <id>http://rangochan.github.com/blog/2014/04/13/shellzhong-shi-xian-wen-jian-suo</id>
