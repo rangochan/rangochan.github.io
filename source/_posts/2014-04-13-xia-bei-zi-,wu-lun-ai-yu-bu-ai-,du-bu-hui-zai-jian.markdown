@@ -3,8 +3,8 @@ layout: post
 title: "下辈子，无论爱与不爱，都不会再见"
 date: 2014-04-13 18:49:41 +0800
 comments: true
-categories: 游响云停
-tags: 游响云停
+categories: life
+tags: life
 ---
 梁继璋与儿书
 
