@@ -3,8 +3,8 @@ layout: post
 title: "shell中实现文件锁"
 date: 2014-04-13 21:19:21 +0800
 comments: true
-categories: shell/python
-tags: shell/python
+categories: shell
+tags: shell
 ---
 
 1.背景
