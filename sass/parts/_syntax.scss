@@ -38,8 +38,7 @@ $solarized: light !default;
   $base3:   $_base03;
 }
 
-// $pre-bg: $color-gray04;
-$pre-bg: #EDEDC0;
+$pre-bg: $color-gray04;
 $pre-border: $color-gray03;
 
 article{
@@ -122,6 +121,7 @@ figure.code{
 	td.code{
 		width: 100%;
 		padding-left: 15px;
+		overflow-x: auto;
 	}
 }
 .entry-content .gist{
@@ -139,8 +139,9 @@ figure.code{
 			background: none;
 			border: none;
 			pre{
-				font: 0.9em $font-mono;
-				line-height: 1.5;
+				font: $font-mono;
+				line-height: inherit;
+				text-align: left;
 			}
 		}
 		.gist-meta{
