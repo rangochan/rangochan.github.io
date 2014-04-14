@@ -193,7 +193,66 @@
 
 <aside class="sidebar">
   
+    <section>
+  <h1>Categories</h1>
+  <ul id="categories">
+    <li class='category'><a href='/blog/categories/shell-python/'>shell/python (1)</a></li>
+<li class='category'><a href='/blog/categories/游响云停/'>游响云停 (1)</a></li>
+
+  </ul>
+</section>
+<section>
+  <h1>新鲜出炉</h1>
+  <ul id="recent_posts">
     
+      <li class="post">
+        <a href="/blog/2014/04/13/shellzhong-shi-xian-wen-jian-suo/">Shell中实现文件锁</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/13/xia-bei-zi-%2Cwu-lun-ai-yu-bu-ai-%2Cdu-bu-hui-zai-jian/">下辈子，无论爱与不爱，都不会再见</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/rangochan">@rangochan</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'rangochan',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+<section>
+  <h1>Tag Cloud</h1>
+    <span id="tag-cloud"><embed type='application/x-shockwave-flash' src='/javascripts/tagcloud.swf'width='100%' height='250' bgcolor='#f2f2f2' id='tagcloudflash' name='tagcloudflash' quality='high' allowscriptaccess='always'flashvars="tcolor=0x333333&amp;tcolor2=0x333333&amp;hicolor=0x000000&amp;tspeed=100&amp;distr=true&amp;mode=tags&amp;tagcloud=%3Ctags%3E%3C%2Ftags%3E"></span>
+</section>
 
 
   
